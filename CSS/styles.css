@@ -1,0 +1,345 @@
+/* GLOBALES */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font: 95%/1.3 Roboto, Segoe UI, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+
+/* CABECERA */
+
+header {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 120px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid greenyellow;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.bienvenida {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: greenyellow;
+}
+
+.bienvenida ol li {
+    list-style: square;
+}
+
+.bienvenida ol {
+    padding-left: 20px;
+}
+
+.bienvenida p {
+    color: greenyellow;
+    font-size: 23px;
+}
+
+.bienvenida p span {
+    background-color: yellowgreen;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+}
+
+.bienvenida p span:nth-of-type(1) {
+    color: green;
+}
+
+.bienvenida p span:nth-of-type(2) {
+    color: green;
+}
+
+.bienvenida p span:nth-of-type(3) {
+    color: white;
+}
+
+.bienvenida p span:nth-of-type(4) {
+    color: white;
+}
+
+.bienvenida p span:nth-of-type(5) {
+    color: red;
+}
+
+.bienvenida p span:nth-of-type(6) {
+    color: red;
+}
+
+.content {
+    margin: 10px 0px 0px 50px;
+}
+
+.logo {
+    flex-grow: 1;
+    flex-basis: 65%;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: 900px;
+    font-size: 35px;
+    text-align: end;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    text-decoration: none;
+    font-weight: 900px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: greenyellow;
+    text-transform: uppercase;
+}
+
+#menu {
+    flex-grow: 1;
+    flex-basis: 30%;
+    height: 100%;
+    padding-right: 0px;
+    font-size: 25px;
+}
+
+#menu>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+ul li:first-child {
+    margin-left: 10px;
+}
+
+#menu a {
+    color: greenyellow;
+    padding: 40px;
+    text-decoration: none;
+    transition: all 400ms;
+}
+
+#menu a:hover {
+    background-color: greenyellow;
+    color: black;
+    font-size: 40px;
+    transform: scale(1.2, 1.2);
+}
+
+
+/* IP */
+
+#ip {
+    padding-top: 5px;
+    padding-left: 150px;
+    color: cyan;
+}
+
+#ip span {
+    background-color: rgb(0, 0, 0);
+    color: dodgerblue;
+}
+
+#ip span {
+    cursor: pointer;
+}
+
+h1 {
+    padding: 20px 20px 0 20px;
+    font-weight: 200;
+    font-family: segoe ui;
+    font-size: 3em;
+    margin: 0;
+}
+
+#texty {
+    color: greenyellow;
+    font-size: 23px;
+    background-color: black;
+    border: 1px solid greenyellow;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+
+/* BOTON DE COPIAR */
+
+#botonCopiar {
+    margin-top: 15px;
+    color: greenyellow;
+    font-size: 23px;
+    background-color: black;
+    border: 1px solid greenyellow;
+    text-align: center;
+    padding: 5px;
+    transition: all 400ms;
+}
+
+#botonCopiar:hover {
+    transform: scale(1.2, 1.2);
+    background-color: grey;
+    color: rgb(185, 255, 80);
+}
+
+#botonCopiar:hover {
+    cursor: pointer;
+}
+
+.rectangulo {
+    margin-left: 100px;
+}
+
+
+/* REGLAS */
+
+.reglas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto;
+    padding: 20px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.box {
+    margin: 20px;
+    padding: 20px;
+    background-color: grey;
+}
+
+.content {
+    flex-direction: column;
+    display: flex;
+}
+
+.reglas p {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.regla p {
+    color: greenyellow;
+    font-size: 25px;
+    text-align: center;
+    background-color: gray;
+}
+
+.regla li a {
+    display: block;
+    color: greenyellow;
+    text-align: left;
+    padding: 10px;
+    background-color: gray;
+    font-size: 20px;
+    transition: all 400ms;
+}
+
+.regla li a:hover {
+    background-color: greenyellow;
+    color: black;
+    transform: scale(1.2, 1.2);
+}
+
+.reglas ol {
+    display: flex;
+    margin: 0px auto;
+}
+
+.reglas ol li {
+    padding: 5px;
+    padding-right: 25px;
+}
+
+.reglas ol li:last-of-type {
+    padding-right: 0px;
+}
+
+.textreglas {
+    display: block;
+    text-align: center;
+    color: greenyellow;
+    background-color: gray;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.textreglas a {
+    color: greenyellow;
+    transform: all 400ms;
+}
+
+.volver a:hover {
+    color: black;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    margin: 0px auto;
+    text-align: end;
+    margin-top: 40px;
+    padding: 10px 0px 10px 0px;
+    color: greenyellow;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 2px gray;
+    letter-spacing: 2px;
+    background-color: #333333;
+}
+
+footer p {
+    margin-right: 20px;
+}
+
+
+/* BOTON PARA REGRESARSE AL INDICE */
+
+#botonRegreso {
+    margin-top: 15px;
+    color: greenyellow;
+    font-size: 23px;
+    background-color: grey;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    transition: all 400ms;
+}
+
+#botonRegreso:hover {
+    transform: scale(1.01, 1.09);
+    background-color: greenyellow;
+    color: black;
+}
+
+#botonRegreso a {
+    color: greenyellow;
+}
+
+#botonRegreso a:hover {
+    color: black;
+}
+
+#botonRegreso:hover {
+    cursor: pointer;
+}
