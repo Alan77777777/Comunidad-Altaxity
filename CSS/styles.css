@@ -343,3 +343,34 @@ footer p {
 #botonRegreso:hover {
     cursor: pointer;
 }
+
+
+/* LIGHTBOX */
+
+.gallery-container {
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.gallery-container .gallery-card {
+    overflow: hidden
+}
+
+.gallery-container .gallery-card a {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-container .gallery-card a>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.gallery-container .gallery-card a>img:hover {
+    transform: scale(1.3) rotate(2deg);
+}
