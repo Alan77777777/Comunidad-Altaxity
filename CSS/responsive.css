@@ -1,0 +1,110 @@
+@media (max-width: 1300px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 70px;
+        border-bottom: 1px solid greenyellow;
+    }
+    #menu {
+        margin-top: 40px;
+    }
+    .logo {
+        margin: 15px;
+    }
+}
+
+@media (max-width: 1035px) {
+    .bienvenida {
+        display: flex;
+        flex-direction: column;
+    }
+    .cuadro1 {
+        text-align: center;
+        width: 100%;
+    }
+    .cuadro2 {
+        text-align: center;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .cuadro2 iframe {
+        width: 80%;
+    }
+    .bienvenida ol li {
+        list-style: none;
+    }
+}
+
+@media (max-width: 900px) {
+    #menu {
+        margin-bottom: 30px;
+    }
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #menu ul li {
+        margin-top: 15px;
+        background-color: grey;
+    }
+    #menu ul li:first-of-type {
+        margin-left: 0px;
+    }
+    #menu a {
+        color: greenyellow;
+        padding: 0px 150px;
+        text-decoration: none;
+        transition: all 400ms;
+    }
+    header {
+        border-bottom: 1px solid greenyellow;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 200px;
+    }
+    .reglas ol {
+        text-align: center;
+        flex-direction: column;
+    }
+    .regla li a {
+        display: block;
+        color: greenyellow;
+        text-align: center;
+        padding: 20px 0px;
+        background-color: gray;
+        font-size: 20px;
+        transition: all 400ms;
+        width: 200px;
+    }
+    .logo {
+        text-align: center;
+    }
+    #menu li a {
+        display: block;
+        width: 400px;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding-bottom: 250px;
+        border-bottom: 1px solid greenyellow;
+    }
+    #menu li a {
+        display: block;
+        width: 300px;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    #menu li a {
+        display: block;
+        width: 200px;
+        padding: 0px;
+        text-align: center;
+    }
+}
