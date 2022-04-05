@@ -5,10 +5,11 @@
                             padding: 0px;
                             list-style: none;
                             text-decoration: none;
+                            text-shadow: 2px 2px 1px black
                         }
                         
                         body {
-                            background-color: black;
+                            background-image: url(/FOTOS/fondo.jpg);
                             font: 95%/1.3 Roboto, Segoe UI, Tahoma, Arial, Helvetica, sans-serif;
                         }
                         
@@ -141,6 +142,7 @@
                             background-color: greenyellow;
                             color: black;
                             font-size: 40px;
+                            text-shadow: none;
                             transform: scale(1.2, 1.2);
                         }
                         /* IP */
@@ -267,6 +269,7 @@
                             background-color: greenyellow;
                             color: black;
                             transform: scale(1.2, 1.2);
+                            text-shadow: none;
                         }
                         
                         .reglas ol {
@@ -316,6 +319,14 @@
                             background-color: #333333;
                         }
                         
+                        footer a {
+                            color: greenyellow;
+                        }
+                        
+                        footer a:hover {
+                            color: turquoise;
+                        }
+                        
                         footer p {
                             margin-right: 20px;
                         }
@@ -335,6 +346,7 @@
                         #botonRegreso:hover {
                             transform: scale(1.01, 1.09);
                             background-color: greenyellow;
+                            text-shadow: none;
                             color: black;
                         }
                         
@@ -344,10 +356,12 @@
                         
                         #botonRegreso a:hover {
                             color: black;
+                            text-shadow: none;
                         }
                         
                         #botonRegreso:hover {
                             cursor: pointer;
+                            text-shadow: none;
                         }
                         /* LIGHTBOX */
                         
