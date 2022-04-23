@@ -17,6 +17,10 @@
                             margin-left: 15px;
                             margin-right: 15px;
                         }
+                        
+                        .content {
+                            margin: 10px 0px 0px 0px !important;
+                        }
                         /* CABECERA */
                         
                         header {
@@ -202,8 +206,7 @@
                         #botonCopiar:hover {
                             cursor: pointer;
                         }
-                        
-                        .rectangulo {}
+                        /* .rectangulo {} */
                         /* IFRAME EXTERNO */
                         
                         .cuadro2 iframe {
