@@ -107,4 +107,21 @@
         padding: 0px;
         text-align: center;
     }
+    .download-button {
+        width: 70%;
+        letter-spacing: 0px;
+        font-size: 25px;
+    }
+    .download-button:hover {
+        font-size: 25px;
+        transform: scale(1.1, 1.1);
+        color: greenyellow;
+    }
+}
+
+@media (max-width: 312px) {
+    .download-button {
+        height: 90px;
+        line-height: 45px;
+    }
 }
